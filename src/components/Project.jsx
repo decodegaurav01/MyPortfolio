@@ -18,7 +18,7 @@ export default function Projects() {
       subtitle: "CRUD Application",
       description:
         "A full-stack application for managing employee details with comprehensive CRUD operations, role-based access, and reporting features.",
-      tech: ["Spring Boot", "React", "MySQL", "JWT"],
+      tech: ["Node.js", "Express", "React", "MySQL", "JWT"],
       github: "https://github.com/decodegaurav01/employee-data-management.git",
       features: ["Employee management", "Role-based access", "Data reports", "Export functionality"],
     },
