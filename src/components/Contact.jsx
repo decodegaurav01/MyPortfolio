@@ -114,7 +114,7 @@ export default function Contact() {
 
                         <div className="space-y-4">
                             <a
-                                href="mailto:gaurav@example.com"
+                                href="mailto:ingle.gaurav002@gmail.com"
                                 className="flex items-center gap-4 p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors group"
                             >
                                 <div className="p-3 bg-blue-600/20 rounded-lg group-hover:bg-blue-600/30 transition-colors">
