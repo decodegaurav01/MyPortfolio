@@ -35,7 +35,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-20 px-4 bg-gray-900/50">
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl sm:text-5xl font-bold mb-12 text-center text-white">Featured Projects</h2>
 
         <div className="space-y-8">
@@ -46,8 +46,8 @@ export default function Projects() {
             >
               <div className="space-y-4">
                 <div>
-                  <h3 className="text-4xl font-bold text-white mb-2">{project.title}</h3>
-                  <p className="text-purple-400 text-lg font-semibold">{project.subtitle}</p>
+                  <h3 className="text-3xl font-bold text-white mb-2">{project.title}</h3>
+                  <p className="text-purple-400 text-lg  font-semibold">{project.subtitle}</p>
                 </div>
 
                 <p className="text-gray-400 leading-relaxed text-lg">{project.description}</p>
@@ -76,7 +76,7 @@ export default function Projects() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-4 py-2 bg-gray-800 text-gray-300 rounded-lg hover:bg-gray-700 transition-colors"
                   >
-                    <Github size={30} />
+                    <Github size={25} />
                     Code
                   </a>
                 </div>

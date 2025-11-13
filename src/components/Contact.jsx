@@ -48,14 +48,14 @@ export default function Contact() {
     return (
         <section id="contact" className="py-20 px-4 bg-gray-900/50">
             <div className="max-w-5xl mx-auto">
-                <h2 className="text-4xl text-white sm:text-6xl font-bold mb-12 text-center">Get In Touch</h2>
+                <h2 className="text-4xl text-white sm:text-5xl font-bold mb-12 text-center">Get In Touch</h2>
 
                 <div className="grid md:grid-cols-2 gap-12">
                     {/* Contact Form */}
                     <div className="space-y-6">
                         <form onSubmit={handleSubmit} className="space-y-4">
                             <div>
-                                <label className="block text-lg font-medium mb-2 text-gray-300">Name</label>
+                                <label className="block  font-medium mb-2 text-gray-300">Name</label>
                                 <input
                                     type="text"
                                     name="name"
@@ -68,7 +68,7 @@ export default function Contact() {
                             </div>
 
                             <div>
-                                <label className="block text-lg font-medium mb-2 text-gray-300">Email</label>
+                                <label className="block  font-medium mb-2 text-gray-300">Email</label>
                                 <input
                                     type="email"
                                     name="email"
@@ -81,7 +81,7 @@ export default function Contact() {
                             </div>
 
                             <div>
-                                <label className="block text-lg font-medium mb-2 text-gray-300">Message</label>
+                                <label className="block  font-medium mb-2 text-gray-300">Message</label>
                                 <textarea
                                     name="message"
                                     value={formData.message}
@@ -105,7 +105,7 @@ export default function Contact() {
                     {/* Contact Links */}
                     <div className="space-y-8">
                         <div>
-                            <h3 className="text-2xl  font-semibold mb-6 text-white">Connect With Me</h3>
+                            <h3 className="text-xl  font-semibold mb-6 text-white">Connect With Me</h3>
                             <p className="text-gray-400 mb-8">
                                 Feel free to reach out through any of these channels. I'm always happy to connect and discuss new
                                 opportunities or ideas.
@@ -118,10 +118,10 @@ export default function Contact() {
                                 className="flex items-center gap-4 p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors group"
                             >
                                 <div className="p-3 bg-blue-600/20 rounded-lg group-hover:bg-blue-600/30 transition-colors">
-                                    <Mail className="text-blue-400" size={24} />
+                                    <Mail className="text-blue-400" size={20} />
                                 </div>
                                 <div>
-                                    <p className="font-semibold text-xl text-white">Email</p>
+                                    <p className="font-semibold  text-white">Email</p>
                                     <p className="text-gray-400 text-lg">ingle.gaurav002@gmail.com</p>
                                 </div>
                             </a>
@@ -133,10 +133,10 @@ export default function Contact() {
                                 className="flex items-center gap-4 p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors group"
                             >
                                 <div className="p-3 bg-blue-600/20 rounded-lg group-hover:bg-blue-600/30 transition-colors">
-                                    <Linkedin className="text-blue-400" size={27} />
+                                    <Linkedin className="text-blue-400" size={20} />
                                 </div>
                                 <div>
-                                    <p className="font-semibold text-xl text-white">LinkedIn</p>
+                                    <p className="font-semibold  text-white">LinkedIn</p>
                                     <p className="text-gray-400 text-lg">Gaurav Ingle</p>
                                 </div>
                             </a>
@@ -148,10 +148,10 @@ export default function Contact() {
                                 className="flex items-center gap-4 p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors group"
                             >
                                 <div className="p-3 bg-purple-600/20 rounded-lg group-hover:bg-purple-600/30 transition-colors">
-                                    <Github className="text-purple-400" size={24} />
+                                    <Github className="text-purple-400" size={20} />
                                 </div>
                                 <div>
-                                    <p className="font-semibold text-xl text-white">GitHub</p>
+                                    <p className="font-semibold  text-white">GitHub</p>
                                     <p className="text-gray-400 text-lg">Gaurav Ingle</p>
                                 </div>
                             </a>

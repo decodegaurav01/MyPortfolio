@@ -36,8 +36,8 @@ export default function Skills() {
 
     return (
         <section id="skills" className="py-20 px-4 bg-gray-950">
-            <div className="max-w-6xl mx-auto">
-                <h2 className="text-4xl sm:text-5xl text-white font-bold mb-12 text-center">Skills & Expertise</h2>
+            <div className="max-w-5xl mx-auto">
+                <h2 className="text-5xl sm:text-5xl text-white font-bold mb-12 text-center">Skills & Expertise</h2>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {skillCategories.map((category) => (

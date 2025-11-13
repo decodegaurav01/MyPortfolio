@@ -6,7 +6,7 @@ export default function Resume() {
   return (
     <section id="resume" className="py-20 px-4 bg-gray-950">
       <div className="max-w-4xl mx-auto text-center space-y-8">
-        <h2 className="text-4xl sm:text-6xl text-white font-bold">My Resume</h2>
+        <h2 className="text-4xl sm:text-5xl text-white font-bold">My Resume</h2>
 
         <p className="text-gray-400 text-lg">
           Download my resume to learn more about my professional experience, education, and achievements.

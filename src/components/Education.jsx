@@ -35,7 +35,7 @@ export default function Education() {
   return (
     <section id="education" className="py-20 px-4 bg-gray-900/50">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-6xl sm:text-6xl text-white font-bold mb-12 text-center">Education</h2>
+        <h2 className="text-5xl sm:text-5xl text-white font-bold mb-12 text-center">Education</h2>
 
         <div className="space-y-6">
           {educationData.map((edu, index) => (
@@ -48,8 +48,8 @@ export default function Education() {
 
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-2">
-                    <h3 className="text-2xl font-semibold text-blue-400">{edu.degree}</h3>
-                    <span className="text-lg text-purple-300 font-medium">{edu.date}</span>
+                    <h3 className="text-xl font-semibold text-blue-400">{edu.degree}</h3>
+                    <span className="text-sm text-purple-300 font-medium">{edu.date}</span>
                   </div>
 
                   <p className="text-gray-300 mb-3">{edu.institution}</p>
