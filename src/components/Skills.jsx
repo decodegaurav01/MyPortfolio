@@ -19,7 +19,7 @@ export default function Skills() {
         },
         {
             category: "Databases",
-            skills: ["MySQL"],
+            skills: ["MySQL","PostgreSQL", "MongoDB"],
             color: "from-cyan-500 to-cyan-600",
         },
         {

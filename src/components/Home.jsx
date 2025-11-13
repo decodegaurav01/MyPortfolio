@@ -11,7 +11,7 @@ export function Home() {
                             </span>
                         </h1>
                         <p className="text-2xl sm:text-4xl text-gray-400 font-light">
-                            Full-Stack Developer | Java | Spring Boot | React | MySql
+                            Full-Stack Developer | Java | Spring Boot | React | MySQL
                         </p>
                     </div>
 
