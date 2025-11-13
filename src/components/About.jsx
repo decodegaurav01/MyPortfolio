@@ -42,7 +42,7 @@ export default function About() {
               <img
                 src="/Gemini_Generated_Image_xvme0oxvme0oxvme-removebg-preview.png"
                 alt="Gaurav Ingle Profile Picture"
-                className="w-full h-full object-cover rounded-full shadow-md mb-4  bg-gray-900"
+                className="w-full h-80 object-cover rounded-full shadow-md mb-4  bg-gray-900"
               />
 
               <h3 className="text-2xl font-bold text-white">Gaurav Ingle</h3>
