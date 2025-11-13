@@ -4,7 +4,7 @@ export default function About() {
       <div className="max-w-5xl mx-auto">
         <h2 className="text-5xl sm:text-5xl font-bold mb-12 text-center text-white">About Me</h2>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="space-y-6 text-gray-300  leading-relaxed">
             <p className="text-xl">
               I'm a passionate full-stack developer with a PG Diploma in Advanced Computing from CDAC, Sunbeam Karad. I
@@ -35,12 +35,49 @@ export default function About() {
             </div>
           </div>
 
-          <div className="relative h-100 bg-linear-to-br from-blue-500/20 to-purple-500/20 rounded-xl border border-purple-500/30 flex items-center justify-center">
-            <div className="text-center text-gray-400">
-              <div className="text-5xl mb-4">💻</div>
-              <p className="text-lg">Full-Stack Developer</p>
+          {/* <div
+
+            className="relative w-full max-w-xs h-40
+             bg-gradient-to-br from-blue-500/20 to-purple-500/20 
+             rounded-xl border border-purple-500/30 
+             flex flex-col items-center justify-center p-6 
+             shadow-xl backdrop-blur-sm"
+          >
+            <div className="text-center text-gray-100 mb-8">
+              <img
+                src="/Gemini_Generated_Image_xvme0oxvme0oxvme-removebg-preview.png"
+                alt="Gaurav Ingle Profile Picture"
+                className="mb-8"
+              />
+              <h3 className="text-3xl font-bold mb-2 text-white">
+                Gaurav Ingle
+              </h3>
+              <p className="text-xl font-medium text-gray-300">
+                Full-Stack Developer
+              </p>
+
             </div>
-          </div>
+          </div> */}
+          <div
+ 
+>
+  <div className="flex flex-col items-center text-center text-gray-100">
+    
+    <img
+      src="/Gemini_Generated_Image_xvme0oxvme0oxvme-removebg-preview.png"
+      alt="Gaurav Ingle Profile Picture"
+      className="w-70 h-60 object-cover rounded-full shadow-md mb-4"
+    />
+
+    <h3 className="text-2xl font-bold text-white">Gaurav Ingle</h3>
+
+    <p className="text-lg font-medium text-gray-300">
+      Full-Stack Developer
+    </p>
+
+  </div>
+</div>
+
         </div>
       </div>
     </section>
