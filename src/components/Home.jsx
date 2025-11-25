@@ -9,6 +9,7 @@ export function Home() {
                             <span className="bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
                                 Gaurav Ingle
                             </span>
+                            
                         </h1>
                         <p className="text-2xl sm:text-2xl text-gray-400 font-light">
                             Full-Stack Developer | Java | Spring Boot | React | MySQL
