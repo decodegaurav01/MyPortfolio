@@ -14,7 +14,7 @@ export default function Resume() {
 
         <div className="flex justify-center">
           <a
-            href="https://drive.google.com/file/d/https://drive.google.com/file/d/1bZ-np-cDVZEgcXIQOslAmtlqGk9dxSad/view?usp=drive_link/view?usp=sharing"
+            href="https://drive.google.com/file/d/1bZ-np-cDVZEgcXIQOslAmtlqGk9dxSad/view?usp=sharing"
             className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 transform hover:scale-105"
           >
             <Download size={25} />
