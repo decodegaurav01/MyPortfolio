@@ -29,7 +29,7 @@ export default function Contact() {
                 "service_armwazs",      // replace with your EmailJS service ID
                 "template_p731gfa",     // replace with your template ID
                 formData,               // your form data
-                "3TKg3R3zQk9F-DV5H"       // replace with your public key
+                "3TKg3R3zQk9F-DV5H"     // replace with your public key
             )
             .then(
                 (result) => {
