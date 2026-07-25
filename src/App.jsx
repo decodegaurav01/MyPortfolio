@@ -24,7 +24,7 @@ export function App() {
         <About/>
         <Skills/>
         <Projects/>
-        <Education/>
+        {/* <Education/> */}
         <Resume/>
         <Contact/>
         <Footer/>
